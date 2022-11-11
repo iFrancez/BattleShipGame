@@ -216,5 +216,9 @@ namespace BattleShipGame
                 }
             }
         }
+
+        private void txtRounds_Click(object sender, EventArgs e) {
+
+        }
     }
 }
