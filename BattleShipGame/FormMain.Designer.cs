@@ -1,6 +1,6 @@
 ﻿namespace BattleShipGame
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// Required designer variable.
@@ -109,20 +109,19 @@
             this.txtRounds.Size = new System.Drawing.Size(121, 26);
             this.txtRounds.TabIndex = 0;
             this.txtRounds.Text = "Round: 10";
-            this.txtRounds.Click += new System.EventHandler(this.txtRounds_Click);
             // 
             // enemyMove
             // 
-            this.enemyMove.AutoSize = true;
             this.enemyMove.BackColor = System.Drawing.Color.Transparent;
             this.enemyMove.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.enemyMove.ForeColor = System.Drawing.Color.White;
-            this.enemyMove.Location = new System.Drawing.Point(616, 28);
+            this.enemyMove.Location = new System.Drawing.Point(593, 17);
             this.enemyMove.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.enemyMove.Name = "enemyMove";
-            this.enemyMove.Size = new System.Drawing.Size(41, 26);
+            this.enemyMove.Size = new System.Drawing.Size(80, 45);
             this.enemyMove.TabIndex = 0;
-            this.enemyMove.Text = "A1";
+            this.enemyMove.Text = "Move";
+            this.enemyMove.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtHelp
             // 
@@ -165,7 +164,7 @@
             // 
             this.w1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.w1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.w1.Location = new System.Drawing.Point(70, 185);
+            this.w1.Location = new System.Drawing.Point(71, 185);
             this.w1.Margin = new System.Windows.Forms.Padding(2);
             this.w1.Name = "w1";
             this.w1.Size = new System.Drawing.Size(58, 58);
@@ -178,7 +177,7 @@
             // 
             this.w2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.w2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.w2.Location = new System.Drawing.Point(133, 185);
+            this.w2.Location = new System.Drawing.Point(134, 185);
             this.w2.Margin = new System.Windows.Forms.Padding(2);
             this.w2.Name = "w2";
             this.w2.Size = new System.Drawing.Size(58, 58);
@@ -217,7 +216,7 @@
             // 
             this.x1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.x1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.x1.Location = new System.Drawing.Point(70, 249);
+            this.x1.Location = new System.Drawing.Point(71, 249);
             this.x1.Margin = new System.Windows.Forms.Padding(2);
             this.x1.Name = "x1";
             this.x1.Size = new System.Drawing.Size(58, 58);
@@ -230,7 +229,7 @@
             // 
             this.x2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.x2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.x2.Location = new System.Drawing.Point(133, 249);
+            this.x2.Location = new System.Drawing.Point(134, 249);
             this.x2.Margin = new System.Windows.Forms.Padding(2);
             this.x2.Name = "x2";
             this.x2.Size = new System.Drawing.Size(58, 58);
@@ -269,7 +268,7 @@
             // 
             this.y1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.y1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.y1.Location = new System.Drawing.Point(70, 313);
+            this.y1.Location = new System.Drawing.Point(71, 313);
             this.y1.Margin = new System.Windows.Forms.Padding(2);
             this.y1.Name = "y1";
             this.y1.Size = new System.Drawing.Size(58, 58);
@@ -282,7 +281,7 @@
             // 
             this.y2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.y2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.y2.Location = new System.Drawing.Point(133, 313);
+            this.y2.Location = new System.Drawing.Point(134, 313);
             this.y2.Margin = new System.Windows.Forms.Padding(2);
             this.y2.Name = "y2";
             this.y2.Size = new System.Drawing.Size(58, 58);
@@ -321,7 +320,7 @@
             // 
             this.z1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.z1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.z1.Location = new System.Drawing.Point(70, 377);
+            this.z1.Location = new System.Drawing.Point(71, 378);
             this.z1.Margin = new System.Windows.Forms.Padding(2);
             this.z1.Name = "z1";
             this.z1.Size = new System.Drawing.Size(58, 58);
@@ -334,7 +333,7 @@
             // 
             this.z2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.z2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.z2.Location = new System.Drawing.Point(133, 377);
+            this.z2.Location = new System.Drawing.Point(134, 377);
             this.z2.Margin = new System.Windows.Forms.Padding(2);
             this.z2.Name = "z2";
             this.z2.Size = new System.Drawing.Size(58, 58);
@@ -373,7 +372,7 @@
             // 
             this.a1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.a1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.a1.Location = new System.Drawing.Point(414, 186);
+            this.a1.Location = new System.Drawing.Point(413, 186);
             this.a1.Margin = new System.Windows.Forms.Padding(2);
             this.a1.Name = "a1";
             this.a1.Size = new System.Drawing.Size(58, 58);
@@ -385,7 +384,7 @@
             // 
             this.a2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.a2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.a2.Location = new System.Drawing.Point(478, 186);
+            this.a2.Location = new System.Drawing.Point(476, 186);
             this.a2.Margin = new System.Windows.Forms.Padding(2);
             this.a2.Name = "a2";
             this.a2.Size = new System.Drawing.Size(58, 58);
@@ -397,7 +396,7 @@
             // 
             this.b1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.b1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.b1.Location = new System.Drawing.Point(414, 250);
+            this.b1.Location = new System.Drawing.Point(413, 250);
             this.b1.Margin = new System.Windows.Forms.Padding(2);
             this.b1.Name = "b1";
             this.b1.Size = new System.Drawing.Size(58, 58);
@@ -409,7 +408,7 @@
             // 
             this.a3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.a3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.a3.Location = new System.Drawing.Point(541, 186);
+            this.a3.Location = new System.Drawing.Point(539, 186);
             this.a3.Margin = new System.Windows.Forms.Padding(2);
             this.a3.Name = "a3";
             this.a3.Size = new System.Drawing.Size(58, 58);
@@ -421,7 +420,7 @@
             // 
             this.c1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.c1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.c1.Location = new System.Drawing.Point(414, 314);
+            this.c1.Location = new System.Drawing.Point(413, 314);
             this.c1.Margin = new System.Windows.Forms.Padding(2);
             this.c1.Name = "c1";
             this.c1.Size = new System.Drawing.Size(58, 58);
@@ -433,7 +432,7 @@
             // 
             this.b2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.b2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.b2.Location = new System.Drawing.Point(478, 250);
+            this.b2.Location = new System.Drawing.Point(476, 250);
             this.b2.Margin = new System.Windows.Forms.Padding(2);
             this.b2.Name = "b2";
             this.b2.Size = new System.Drawing.Size(58, 58);
@@ -445,7 +444,7 @@
             // 
             this.d1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.d1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.d1.Location = new System.Drawing.Point(414, 378);
+            this.d1.Location = new System.Drawing.Point(413, 378);
             this.d1.Margin = new System.Windows.Forms.Padding(2);
             this.d1.Name = "d1";
             this.d1.Size = new System.Drawing.Size(58, 58);
@@ -457,7 +456,7 @@
             // 
             this.a4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.a4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.a4.Location = new System.Drawing.Point(605, 186);
+            this.a4.Location = new System.Drawing.Point(602, 186);
             this.a4.Margin = new System.Windows.Forms.Padding(2);
             this.a4.Name = "a4";
             this.a4.Size = new System.Drawing.Size(58, 58);
@@ -469,7 +468,7 @@
             // 
             this.c2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.c2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.c2.Location = new System.Drawing.Point(478, 314);
+            this.c2.Location = new System.Drawing.Point(476, 314);
             this.c2.Margin = new System.Windows.Forms.Padding(2);
             this.c2.Name = "c2";
             this.c2.Size = new System.Drawing.Size(58, 58);
@@ -481,7 +480,7 @@
             // 
             this.b3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.b3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.b3.Location = new System.Drawing.Point(541, 250);
+            this.b3.Location = new System.Drawing.Point(539, 250);
             this.b3.Margin = new System.Windows.Forms.Padding(2);
             this.b3.Name = "b3";
             this.b3.Size = new System.Drawing.Size(58, 58);
@@ -493,7 +492,7 @@
             // 
             this.d2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.d2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.d2.Location = new System.Drawing.Point(478, 378);
+            this.d2.Location = new System.Drawing.Point(476, 378);
             this.d2.Margin = new System.Windows.Forms.Padding(2);
             this.d2.Name = "d2";
             this.d2.Size = new System.Drawing.Size(58, 58);
@@ -505,7 +504,7 @@
             // 
             this.b4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.b4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.b4.Location = new System.Drawing.Point(605, 250);
+            this.b4.Location = new System.Drawing.Point(602, 250);
             this.b4.Margin = new System.Windows.Forms.Padding(2);
             this.b4.Name = "b4";
             this.b4.Size = new System.Drawing.Size(58, 58);
@@ -517,7 +516,7 @@
             // 
             this.c3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.c3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.c3.Location = new System.Drawing.Point(541, 314);
+            this.c3.Location = new System.Drawing.Point(539, 314);
             this.c3.Margin = new System.Windows.Forms.Padding(2);
             this.c3.Name = "c3";
             this.c3.Size = new System.Drawing.Size(58, 58);
@@ -529,7 +528,7 @@
             // 
             this.c4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.c4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.c4.Location = new System.Drawing.Point(605, 314);
+            this.c4.Location = new System.Drawing.Point(602, 314);
             this.c4.Margin = new System.Windows.Forms.Padding(2);
             this.c4.Name = "c4";
             this.c4.Size = new System.Drawing.Size(58, 58);
@@ -541,7 +540,7 @@
             // 
             this.d3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.d3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.d3.Location = new System.Drawing.Point(541, 378);
+            this.d3.Location = new System.Drawing.Point(539, 378);
             this.d3.Margin = new System.Windows.Forms.Padding(2);
             this.d3.Name = "d3";
             this.d3.Size = new System.Drawing.Size(58, 58);
@@ -553,7 +552,7 @@
             // 
             this.d4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.d4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.d4.Location = new System.Drawing.Point(605, 378);
+            this.d4.Location = new System.Drawing.Point(602, 378);
             this.d4.Margin = new System.Windows.Forms.Padding(2);
             this.d4.Name = "d4";
             this.d4.Size = new System.Drawing.Size(58, 58);
@@ -566,12 +565,12 @@
             this.EnemyPlayTimer.Interval = 1000;
             this.EnemyPlayTimer.Tick += new System.EventHandler(this.EnemyPlayTimerEvent);
             // 
-            // Form1
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BattleShipGame.Properties.Resources.background;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(734, 486);
             this.Controls.Add(this.d4);
             this.Controls.Add(this.z4);
@@ -613,7 +612,8 @@
             this.Controls.Add(this.txtEnemy);
             this.Controls.Add(this.txtPlayer);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form1";
+            this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BattleShip";
             this.ResumeLayout(false);
             this.PerformLayout();
